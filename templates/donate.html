@@ -1,0 +1,44 @@
+{% extends 'layout.html'%}
+
+{% block body %}
+    <h1></h1>
+    <div class="jumbotron text-center" style="height:800px;background-image: url('/static/beach.jpg'); background-size:cover;">
+        <h1><br></h1>
+        <h1 > Help Support 4ai and Our Employees!<br><br></h1>
+        <button type="button" style="background-color: #0074aa; padding: 15px 32px; color: white; text-align: center; font-size: 16px;" onclick="window.open('https://www.gofundme.com/3inonprofit','_blank')">Donate</button>
+    </div>
+    <div class="jumbotron" style="background-color:white" >
+    <p style="padding:10px 160px"> Through your donations, you can help us provide a unique employment opportunity for more people with
+        disabilities. Your donation will have a lifelong impact on our employees.</p>
+    <p style="padding:10px 160px"> You will also be helping to support a larger movement of increasing the involvement of people with disabilities
+        in the field of AI. We aim to increase the diversity of those working in the field of AI, while breaking down
+        the traditional stereotypes of disabilities.</p>
+    <p style="padding:10px 160px"> Your contributions are 100% tax deductible.</p>
+    <p style="padding:10px 160px"> Thank you from everyone at 4ai!</p>
+    <p style="padding:10px 160px"> Ashley Poon and Cathy Hou <br>
+        Executive Directors and Founders <br>
+        4ai </p>
+    </div>
+    <div class="jumbotron text-center" style="background-color: white;">
+        <h1><small>Other Ways to Help Out<br><br></small></h1>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="/static/donate1.jpg" >
+                <p><br>Purchase our Products<br></p>
+                <button type="button" style="background-color: #0074aa; padding: 10px 20px; color: white; text-align:center; " onclick="window.location.href='/services';">Go</button>
+            </div>
+            <div class="col-sm-4">
+                <img src="/static/donate2.jpg" >
+                <p><br>Volunteer at Disability Awareness Events</p>
+                <p>Look up disability awareness events happening in your community and go help out!<br></p>
+                <button type="button" style="background-color: #0074aa; padding: 10px 20px; color: white; text-align:center; " onclick="window.open('https://www.disabled-world.com/disability/awareness/','_blank')">Find Events</button>
+
+            </div>
+            <div class="col-sm-4" >
+                <img src="/static/donate3.jpg" >
+                <p><br>Volunteer at 4ai<br></p>
+                <button type="button" style="background-color: #0074aa; padding: 10px 20px; color: white; text-align:center; " onclick="window.location.href='/contact';">Join Our Team</button>
+            </div>
+        </div>
+    </div>
+{% endblock %}

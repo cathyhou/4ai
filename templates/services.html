@@ -1,0 +1,69 @@
+{% extends 'layout.html'%}
+{% block body %}
+    <h1></h1>
+    <div class="jumbotron text-center" style="width:1100px;height:500px;padding: 100px 200px;background-image: url('/static/services.jpg'); background-size:cover;">
+        <h><br><br><br><br></h>
+        <h1 style="color:black">OUR SERVICES</h1>
+    </div>
+    <div class="jumbotron text-center" style="background-color: white;">
+        <div class="row">
+            <div class="col-sm-5">
+                <br><br><br>
+                <img src="/static/download.jpg">
+            </div>
+            <div class="col-sm-7" >
+                <h1><small>What We Do</small></h1>
+                <h1></h1>
+                <p> 4ai supplies labeled images for AI companies to use. The company provides an interface for the employees, who
+                    are all people with disabilities, to use to label images. The completed files are then sent to customer
+                    companies. 4ai has a fast turnaround rate and ensures high quality products.  </p>
+                <p> </p>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron text-center" style="background-color: white;">
+        <h1><small>Computer Vision Uses<br><br></small></h1>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Autonomous Cars</p>
+                <img src="/static/car.jpg" style="height:200px; width:250px">
+            </div>
+            <div class="col-sm-4">
+                <p>Computer Vision</p>
+                <img src="/static/laptop.jpg" style="height:200px; width:250px">
+            </div>
+            <div class="col-sm-4" >
+                <p>Face Recognition</p>
+                <img src="/static/face.jpg" style="height:200px; width:250px">
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron text-center" style="background-color: white;">
+        <h1><small>Our Process<br><br></small></h1>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="/static/step1.jpg">
+                <p></p>
+                <p>Step 1</p>
+                <p>The customer requests labeled files.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="/static/step2.jpg" style="height:225px">
+                <p></p>
+                <p>Step 2</p>
+                <p>Our employees label these files.</p>
+            </div>
+            <div class="col-sm-4" >
+                <img src="/static/step3.jpg" >
+                <p></p>
+                <p>Step 3</p>
+                <p>4ai sells these labeled files to the customer.</p>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron text-center" style="padding:100px 100px; background-color:#c6e6f4">
+        <h1>Learn More About Our Services <br><br></h1>
+        <button type="button" style="background-color: #0074aa; padding: 10px 20px; color: white; text-align:center; width:100px" onclick="window.location.href='/contact';">Go</button>
+    </div>
+
+{% endblock %}

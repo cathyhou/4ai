@@ -1,0 +1,42 @@
+{% extends 'layout.html'%}
+
+{% block body %}
+    <p></p>
+    <div class="jumbotron text-center" style="padding:70px 90px; background-image: url('/static/river.jpg'); background-size:cover;">
+        <h1 style="color:black">Unlock New AI Possibilities Alongside People with Disabilities<br><br></h1>
+        <p class="'lead" style="color:white">Enhance your data while making a social impact.<br><br></p>
+        <button type="button" style="background-color: #0074aa; padding: 15px 32px; color: white; text-align: center; font-size: 16px;" onclick="window.location.href='/services';">Learn More</button>
+    </div>
+    <div class="jumbotron text-center" style="background-color: white;">
+        <h1><small>OUR MAIN GOALS <br><br></small></h1>
+        <div class="row">
+            <div class="col-sm-5" style="padding: 50px 50px; border: 2px solid #dee0e2;">
+                <img src="/static/handicap.jpg" >
+                <p></p>
+                <p style="color:#3b3c3d">Create New Opportunities for People with Disabilities.</p>
+                <button type="button" style="background-color: #0074aa; padding: 10px 20px; color: white; text-align:center; " onclick="window.location.href='/impact';">Go</button>
+            </div>
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-5" style="padding: 50px 50px; border: 2px solid #dee0e2;">
+                <img src="/static/eye.jpg" >
+                <p></p>
+                <p style="color:#3b3c3d">Provide Labeled Images for AI Companies</p>
+                <button type="button" style="background-color: #0074aa; padding: 10px 20px; color: white; text-align:center; " onclick="window.location.href='/services';">Go</button>
+            </div>
+        </div>
+        <p><br></p>
+    </div>
+    <div class="jumbotron text-center" style="padding:80px 80px">
+        <h1><small>OUR MISSION <br></small></h1>
+        <p></p>
+        <p>4ai strives to better the lives of people with disabilities while concurrently working to
+            improve the world one annotated image at a time. <br><br></p>
+        <button type="button" style="background-color: #0074aa; padding: 15px 32px; color: white; text-align: center; font-size: 16px;" onclick="window.location.href='/about';">About Us</button>
+    </div>
+    <div class="jumbotron text-center" style="padding:80px 80px; background-color:#c6e6f4;">
+        <h1><small style="color:black">Interested in helping us?<br><br></small></h1>
+        <button type="button" style="background-color: #0074aa; padding: 15px 32px; color: white; text-align: center; font-size: 16px;" onclick="window.location.href='/donate';">Support Us</button>
+    </div>
+
+{% endblock %}

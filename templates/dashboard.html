@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1><br><br></h1>
+    <h1>Dashboard </h1>
+    <h2><small>Welcome {{session.username}}!</small></h2>
+    <p><br></p>
+    <button type="button" style="background-color: #0074aa; padding: 15px 32px; color: white; text-align: center; font-size: 16px;" onclick="window.location.href='/label';">Start Labeling</button>
+
+{% endblock %}
